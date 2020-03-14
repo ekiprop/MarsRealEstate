@@ -17,4 +17,12 @@
 
 package com.example.android.marsrealestate.network
 
-class MarsProperty()
+data class MarsProperty(
+        val id: String, val url: String,
+        val name: String,
+        val switch0: String,
+        val switch1: String,
+        val switch2: String,
+        val switch3: String,
+        val phone_no: String
+)
